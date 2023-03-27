@@ -22,3 +22,7 @@ svg{
     transform: translate(0);
 }
 
+.bad{
+    animation: bad 2s infinite;
+}
+
