@@ -1,0 +1,24 @@
+.shadow{
+    opacity: 0.3;
+}
+
+#pattern{
+    clip-path: url(#svgTextPath);
+}
+
+svg{
+    position: absolute;
+    left: -35px;
+}
+
+.border{
+    border: 2px dashed #ccc;
+    width: 250px;
+    min-height: 200px;
+    padding: 5px;
+}
+
+.rect{
+    transform: translate(0);
+}
+
